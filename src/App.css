@@ -1,0 +1,43 @@
+.App{
+    display: flex;
+   
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 2px rgb(231, 4, 4);
+}
+.title{
+    text-transform: capitalize;
+    font-size: 50px;
+    text-decoration: underline;
+}
+Form{
+    margin-top: 50px;
+    
+}
+Input{
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+   border: 0;
+   outline: none;
+   
+}
+Button{
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-transform: uppercase;
+    background-color: red;
+    border: 0;
+    
+}
